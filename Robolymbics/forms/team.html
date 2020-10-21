@@ -1,0 +1,38 @@
+
+    
+    <form action="" class="team">
+        <svg onclick="back_menu()" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+        <div class = "form-group">
+            <label for="team_name">Team Name</label><br>
+            <input type="text" id="team_name" placeholder="Team Name" required>
+        </div>
+        <div class = "form-group borders">
+            <label for="user_name">Leader Name</label><br>
+            <input type="text" id="user_name" placeholder="Leader Name" required><br>
+
+            <label for="lead_phone">Phone</label><br>
+            <input type="tel" id="lead_phone" placeholder="Leader Phone" required><br>
+            
+            <label for="lead_mail">E-mail</label><br>
+            <input type="email" id="lead_mail" placeholder="Leader E-mail" required>
+        </div>
+        <div class = "form-group borders">
+            <label for="first_name">1st Member</label><br>
+            <input type="text" id="first_name" placeholder="Enter Name" required><br>
+            
+            <label for="first_phone">Phone</label><br>
+            <input type="tel" id="first_phone" placeholder="Enter Phone" required>
+        </div>
+        <div style="display: flex; justify-content: flex-end;">
+        <button class="add_memb" style="font-size: 1.2rem; width: auto;">Add Member</button>
+    </div>
+        <div class = "form-group">
+            <label>Interview Appointment</label><br>
+            <select><option>Choose an Appointment</option></select>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
